@@ -54,7 +54,7 @@ export default function Hero() {
           />
         </div>
         <div className="relative uppercase mt-[60vh] sm:mt-[90vh] text-[3.5vw] sm:text-3xl">
-          <div className="container">
+          <div className="containerSection">
             {phrases.map((phrase, index) => {
               return <AnimatedText key={index}>{phrase}</AnimatedText>;
             })}

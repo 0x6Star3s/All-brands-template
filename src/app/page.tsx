@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <main className="h-[400vh]">
       <Hero />
-      <div className="container">
-        <div className="box"></div>
-        {/* <AboutUs /> */}
+      <div className="containerSection">
+        {/* <div className="box"></div> */}
+        <AboutUs />
       </div>
     </main>
   );
