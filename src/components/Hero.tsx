@@ -53,7 +53,7 @@ export default function Hero() {
             style={{ objectFit: "cover" }}
           />
         </div>
-        <div className="relative uppercase mt-[60vh] sm:mt-[90vh] text-[3.5vw] sm:text-3xl">
+        <div className="relative uppercase mt-[60vh] sm:mt-[90vh] text-[3.5vw] sm:text-3xl md:text-4xl">
           <div className="containerSection py-8">
             {phrases.map((phrase, index) => {
               return <AnimatedText key={index}>{phrase}</AnimatedText>;
