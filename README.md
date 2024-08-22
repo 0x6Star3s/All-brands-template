@@ -1,6 +1,6 @@
 
 # All-brands-template
-![gif](https://github-production-user-asset-6210df.s3.amazonaws.com/95292019/360553714-c1085a7f-9753-4cc3-a026-06cd40ee01ed.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240822%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240822T163628Z&X-Amz-Expires=300&X-Amz-Signature=4a9b040e653c6d9a6cf7c1577939a8813e3910821c142e5f66d8fbf134852ad2&X-Amz-SignedHeaders=host&actor_id=95292019&key_id=0&repo_id=795155630)
+![ezgif-2-25de00f6f8](https://github.com/user-attachments/assets/bfdcf97e-6b10-40b2-ae9c-2e79053287c5)
 
 
 
