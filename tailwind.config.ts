@@ -15,6 +15,14 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ matchUtilities, theme }: any) {
+      matchUtilities({
+        "clipPath-inset": (value: any) => ({
+          clipPath: `inset(${value})`,
+        }),
+      });
+    },
+  ],
 };
 export default config;
