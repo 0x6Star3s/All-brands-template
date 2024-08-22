@@ -27,7 +27,7 @@ body {
 }
 
 .containerSection {
-  @apply mx-auto w-[92%] max-w-[1400px] md:py-12;
+  @apply mx-auto w-[92%] max-w-[1200px] md:py-12;
 }
 
 .box{
