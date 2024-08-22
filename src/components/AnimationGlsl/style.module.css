@@ -1,0 +1,16 @@
+.containerClientGlsl{
+    position: relative;
+    /* position: static;q */
+}
+.providerGlsl{
+    top: 0;
+    position: fixed;
+    display: none;
+    /* background-color: aqua; */
+}
+
+@media (min-width: 768px) {
+    .providerGlsl{
+        display: block;
+    }
+}

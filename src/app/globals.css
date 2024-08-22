@@ -18,19 +18,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #131616;
 }
 
 .containerSection {
   @apply mx-auto w-[92%] max-w-[1200px] md:py-12;
 }
 
-.box{
+.box {
   @apply relative bg-[#ffffff49] shadow-md rounded-lg p-6 h-[400px];
 }
 
