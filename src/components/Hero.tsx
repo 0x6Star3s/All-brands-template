@@ -36,28 +36,30 @@ export default function Hero() {
     { scope: background }
   );
   return (
-    <section className="relative w-full ">
-      <div
-        className="w-full top-[20vh] ms:top-[40vh] sm:top-0 h-[70vh] sm:h-[125vh] absolute brightness-50 bg-slate-300"
-        ref={background}
-      >
-        <Image
-          fill={true}
-          src={"/images/salon-krakow-2.jpg"}
-          alt="background image"
-          priority={true}
-          style={{ objectFit: "cover" }}
-        />
-      </div>
-      <div className="relative mx-auto max-w-fit mt-[40vh]">
-        <h1 className="my-4 text-3xl sm:text-6xl text-nowrap font-semibold">
-          All Brands
-        </h1>
-      </div>
-      <div className="relative uppercase mt-[60vh] sm:mt-[90vh] ml-[5vw] md:ml-[10vw] text-[3.5vw] sm:text-3xl">
-        {phrases.map((phrase, index) => {
-          return <AnimatedText key={index}>{phrase}</AnimatedText>;
-        })}
+    <section className="relative w-full pt-[40vh]">
+      <h1 className=" my-4 text-center text-3xl sm:text-6xl lg:text-9xl text-nowrap font-semibold">
+        All Brands
+      </h1>
+      <div className="relative w-full sm:h-max">
+        <div
+          className="absolute w-full bottom-0 h-[70vh] sm:h-[125vh] brightness-50"
+          ref={background}
+        >
+          <Image
+            fill={true}
+            src={"/images/salon-krakow-2.jpg"}
+            alt="background image"
+            priority={true}
+            style={{ objectFit: "cover" }}
+          />
+        </div>
+        <div className="relative uppercase mt-[60vh] sm:mt-[90vh] text-[3.5vw] sm:text-3xl">
+          <div className="container">
+            {phrases.map((phrase, index) => {
+              return <AnimatedText key={index}>{phrase}</AnimatedText>;
+            })}
+          </div>
+        </div>
       </div>
     </section>
   );

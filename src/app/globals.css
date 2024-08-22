@@ -26,6 +26,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.container {
+  @apply mx-auto w-[92%] max-w-[1400px] md:py-12;
+}
+
+.box{
+  @apply relative bg-[#ffffff49] shadow-md rounded-lg p-6 h-[400px];
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
